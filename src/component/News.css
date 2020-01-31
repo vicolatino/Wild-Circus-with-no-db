@@ -1,0 +1,9 @@
+.eventCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.NewsTitle {
+    margin: 5%;
+}

@@ -1,0 +1,43 @@
+.ElementCardContainer {
+    background-color: #d0d0d0cc ;
+    border-radius: 3%;
+    width: 35%;
+
+    height: auto;
+    align-items: center;
+    margin-bottom: 6%;
+    box-shadow: 0 10px 14px #777;
+}
+.DateEventCard {
+    font-size: 1.2em;
+}
+
+.LogoCircus {
+    height: auto;
+    width: 100%;
+}
+
+.ArticleContainer {
+    background: white;
+    padding: 4%;
+    border-radius: 1%;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 6%;
+
+}
+.DateLogoContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    padding-top: 4%;
+    width: 90%;
+}
+
+.LogoCircusContainer {
+    width: 10%;
+}
+
+.TitleEventCard {
+    font-size: 1.4rem;
+}

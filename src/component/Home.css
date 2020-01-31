@@ -1,0 +1,22 @@
+
+.BannerCircus {
+    width: 100%;
+    height: auto;
+    margin-bottom: -1%;
+}
+
+.PicCircus {
+    width: 100%;
+    height: auto;
+}
+
+.HomeContainer {
+    width: 100%;
+}
+.BannerCircusMobile {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: -1%;
+}
+

@@ -1,0 +1,28 @@
+* {
+    font-family: 'Cinzel', sans-serif;
+}
+.NavBarContainer {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid;
+    height: 7vh;
+    
+}
+
+
+.logoNavbar {
+    width: auto;
+    height: 49%;
+}
+
+.WidthLinkBar {
+    width: 25%;
+}
+
+.NavBarContainer li {
+    color: #0e1728;
+    font-weight: bold;
+}
+
+.logoNavContainer {
+    width: 25%;
+}

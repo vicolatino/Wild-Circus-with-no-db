@@ -1,0 +1,35 @@
+.ContactLinkLogo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+
+.Girl {
+    width: 80%;
+    margin-bottom: 9%;
+}
+
+.logoContact{
+    width: 15%;
+    height: auto;
+}
+
+.titleContact {
+    margin-bottom: 5%;
+}
+
+.adressContact {
+    font-size: 1.6rem;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 
+.logoContact {
+    width: 5%;
+    height: auto;
+} */

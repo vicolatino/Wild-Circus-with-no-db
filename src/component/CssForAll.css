@@ -1,0 +1,130 @@
+.Flex {
+    display: flex;
+}
+.linkclick{
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.linkclick:hover {
+    color: lightgray;
+}
+.navbar > .active {
+    border-bottom: 2px solid white;
+}
+
+.Column {
+  flex-direction: column;  
+}
+
+.SpaceAround {
+    justify-content:space-around;
+}
+
+.SpaceBetween {
+    justify-content: space-between;
+}
+
+.ItemCenter {
+    align-items: center;
+}
+
+.MaxWidth {
+    width: 50%;
+}
+
+.NoStyleList {
+    list-style: none;
+}
+
+.BorderRight {
+    border-right:0.1em solid #0e1728;
+}
+
+.bm-burger-button {
+    display: none;
+}
+.bm-menu-wrap {
+    width: 200px !important;
+    display: none;
+}
+.bm-overlay {
+    display: none;
+}
+.bm-menu {
+    display: none;
+}
+
+
+@media only screen and (max-width : 800px) {
+    .linkclick {
+        font-size: 1em;
+    }
+    .NavBarContainer ul {
+        width: 90%;
+    }
+    /* .navbar{
+        display: none;
+    } */
+}
+
+@media only screen and (max-width : 500px) {
+    .linkclick {
+        display: none;
+
+    }
+    .BannerCircus {
+        display: none;
+    }
+    .BannerCircusMobile {
+        display: block;
+    }
+    .FamilyContainer {
+        flex-direction: column;
+    }
+    .FamilyContainer img {
+        /* object-fit: scale-down; */
+        width: 70% !important;
+        height: auto;
+    }
+    .FamilyContainer p {
+        font-size: 0.9rem;
+    }
+    .FamilyTitle {
+        font-size: 1.2rem;
+    }
+    .eventCardContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ContactLinkLogo {
+        width: 100% !important;
+    }
+    .Girl {
+        width: 100%;
+    }
+    .ElementCardContainer {
+        width: 90% !important;
+    }
+    .logoNavContainer {
+        width: 100%;
+    }
+    .bm-burger-button {
+        display: block;
+    }
+    .menu-item-bar-actu {
+        font-size: 1.3em;
+        text-align: left;
+    }
+    .bm-menu-wrap {
+        display: block;
+    }
+    .bm-overlay {
+        display: block;
+    }
+    .bm-menu {
+        display: block;
+    }
+    .ArticleContainer {
+        font-size: 0.9em;
+    }
+}

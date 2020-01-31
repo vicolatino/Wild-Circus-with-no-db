@@ -1,0 +1,22 @@
+.customWidth {
+    width: 83% !important;
+}
+
+.FamilyContainer img {
+    /* object-fit: scale-down; */
+    width: 95%;
+    height: auto;
+}
+
+
+
+
+.FamilyContainer p {
+    width: 70%;
+    font-size: 1.1em;
+}
+
+.FamilyTitle {
+    margin: 5%;
+}
+
